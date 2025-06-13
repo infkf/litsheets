@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Comprehensive Lithuanian Pronoun Declensions Cheatsheet</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Inter", sans-serif;
+      }
+      .case-label {
+        font-weight: 600;
+        color: #4a5568; /* gray-700 */
+      }
+      .ending {
+        font-weight: 700;
+        color: #2b6cb0; /* blue-700 */
+        background-color: #ebf8ff; /* blue-100 */
+        padding: 0.125rem 0.375rem;
+        border-radius: 0.25rem;
+        font-size: 0.9em;
+      }
+      .note {
+        background-color: #fefcbf; /* yellow-100 */
+        border-left: 4px solid #f6e05e; /* yellow-400 */
+        padding: 1rem;
+        margin-top: 1rem;
+        font-size: 0.9rem;
+        color: #744210; /* yellow-900 */
+        border-radius: 0.25rem;
+      }
+      th {
+        position: sticky;
+        top: 0;
+        background-color: #f7fafc; /* gray-100 */
+      }
+      .decl-header {
+        font-size: 1.5rem; /* text-2xl */
+        font-weight: 700;
+        color: #1a202c; /* gray-900 */
+        margin-bottom: 1rem;
+        padding-bottom: 0.5rem;
+      }
+      .table-container {
+        overflow-x: auto;
+        box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1),
+          0 2px 4px -2px rgb(0 0 0 / 0.1);
+        border-radius: 0.5rem;
+      }
+    </style>
+  </head>
+  <body class="bg-gray-50 text-gray-800">
+    <nav class="bg-white shadow-md sticky top-0 z-10">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-center h-16">
+          <div
+            class="flex flex-wrap justify-center items-center space-x-2 sm:space-x-4"
+          >
+            <!-- Navbar Links -->
+            <a
+              href="./index.html"
+              class="text-gray-700 hover:bg-blue-100 hover:text-blue-700 px-3 py-2 rounded-md text-sm font-medium"
+              >Home</a
+            >
+            <a
+              href="./nouns.html"
+              class="text-gray-700 hover:bg-blue-100 hover:text-blue-700 px-3 py-2 rounded-md text-sm font-medium"
+              >Nouns</a
+            >
+            <a
+              href="./adjectives.html"
+              class="text-gray-700 hover:bg-blue-100 hover:text-blue-700 px-3 py-2 rounded-md text-sm font-medium"
+              >Adjectives</a
+            >
+            <a
+              href="./pronouns.html"
+              class="text-gray-700 hover:bg-blue-100 hover:text-blue-700 px-3 py-2 rounded-md text-sm font-medium"
+              >Pronouns</a
+            >
+            <a
+              href="./numerals.html"
+              class="text-gray-700 hover:bg-blue-100 hover:text-blue-700 px-3 py-2 rounded-md text-sm font-medium"
+              >Numerals</a
+            >
+            <a
+              href="./verbs.html"
+              class="text-gray-700 hover:bg-blue-100 hover:text-blue-700 px-3 py-2 rounded-md text-sm font-medium"
+              >Verbs</a
+            >
+            <a
+              href="./participles.html"
+              class="text-gray-700 hover:bg-blue-100 hover:text-blue-700 px-3 py-2 rounded-md text-sm font-medium"
+              >Participles</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container mx-auto p-4 sm:p-6 lg:p-8">
+      <header class="text-center mb-10">
+        <h1 class="text-4xl font-bold text-gray-900">
+          Comprehensive Pronoun Declensions
+        </h1>
+        <p class="text-xl text-gray-600 mt-2">
+          A complete reference for Lithuanian pronouns.
+        </p>
+      </header>
+
+      <main class="space-y-12">
+        <!-- Personal and Reflexive Pronouns -->
+        <section id="personal-pronouns">
+          <h2 class="decl-header border-b-2 border-blue-200">
+            Personal and Reflexive Pronouns
+          </h2>
+          <p class="mb-4 text-gray-600">
+            Personal pronouns refer to specific people or things. The reflexive
+            pronoun `savęs` refers back to the subject of the clause and has no
+            nominative form.
+          </p>
+          <div class="table-container">
+            <table class="w-full text-sm text-left text-gray-500">
+              <thead class="text-xs text-gray-700 uppercase">
+                <tr>
+                  <th scope="col" class="px-6 py-3">Case</th>
+                  <th scope="col" class="px-6 py-3">1st Sg. (aš)</th>
+                  <th scope="col" class="px-6 py-3">2nd Sg. (tu)</th>
+                  <th scope="col" class="px-6 py-3">1st Pl. (mes)</th>
+                  <th scope="col" class="px-6 py-3">2nd Pl. (jūs)</th>
+                  <th scope="col" class="px-6 py-3">Reflexive (savęs)</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="bg-white">
+                  <td class="px-6 py-4 case-label">Nom.</td>
+                  <td>aš</td>
+                  <td>tu</td>
+                  <td>mes</td>
+                  <td>jūs</td>
+                  <td class="bg-gray-200">-</td>
+                </tr>
+                <tr class="bg-gray-50">
+                  <td class="px-6 py-4 case-label">Gen.</td>
+                  <td>man<span class="ending">-ęs</span></td>
+                  <td>tav<span class="ending">-ęs</span></td>
+                  <td>mūs<span class="ending">-ų</span></td>
+                  <td>jūs<span class="ending">-ų</span></td>
+                  <td>sav<span class="ending">-ęs</span></td>
+                </tr>
+                <tr class="bg-white">
+                  <td class="px-6 py-4 case-label">Dat.</td>
+                  <td>man</td>
+                  <td>tau</td>
+                  <td>mums</td>
+                  <td>jums</td>
+                  <td>sau</td>
+                </tr>
+                <tr class="bg-gray-50">
+                  <td class="px-6 py-4 case-label">Acc.</td>
+                  <td>man<span class="ending">-e</span></td>
+                  <td>tav<span class="ending">-e</span></td>
+                  <td>mus</td>
+                  <td>jus</td>
+                  <td>sav<span class="ending">-e</span></td>
+                </tr>
+                <tr class="bg-white">
+                  <td class="px-6 py-4 case-label">Inst.</td>
+                  <td>man<span class="ending">-imi</span></td>
+                  <td>tav<span class="ending">-imi</span></td>
+                  <td>mum<span class="ending">-is</span></td>
+                  <td>jum<span class="ending">-is</span></td>
+                  <td>sav<span class="ending">-imi</span></td>
+                </tr>
+                <tr class="bg-gray-50">
+                  <td class="px-6 py-4 case-label">Loc.</td>
+                  <td>man<span class="ending">-yje</span></td>
+                  <td>tav<span class="ending">-yje</span></td>
+                  <td>mum<span class="ending">-yse</span></td>
+                  <td>jum<span class="ending">-yse</span></td>
+                  <td>sav<span class="ending">-yje</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <h3 class="text-xl font-semibold text-gray-700 mb-3 mt-8">
+            Third-Person Pronouns
+          </h3>
+          <div class="table-container">
+            <table class="w-full text-sm text-left text-gray-500">
+              <thead class="text-xs text-gray-700 uppercase">
+                <tr>
+                  <th scope="col" class="px-6 py-3">Case</th>
+                  <th scope="col" class="px-6 py-3">Masc. Sg. (jis)</th>
+                  <th scope="col" class="px-6 py-3">Fem. Sg. (ji)</th>
+                  <th scope="col" class="px-6 py-3">Masc. Pl. (jie)</th>
+                  <th scope="col" class="px-6 py-3">Fem. Pl. (jos)</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="bg-white">
+                  <td class="px-6 py-4 case-label">Nom.</td>
+                  <td>jis</td>
+                  <td>ji</td>
+                  <td>jie</td>
+                  <td>jos</td>
+                </tr>
+                <tr class="bg-gray-50">
+                  <td class="px-6 py-4 case-label">Gen.</td>
+                  <td>jo</td>
+                  <td>jos</td>
+                  <td>jų</td>
+                  <td>jų</td>
+                </tr>
+                <tr class="bg-white">
+                  <td class="px-6 py-4 case-label">Dat.</td>
+                  <td>jam</td>
+                  <td>jai</td>
+                  <td>jiems</td>
+                  <td>joms</td>
+                </tr>
+                <tr class="bg-gray-50">
+                  <td class="px-6 py-4 case-label">Acc.</td>
+                  <td>jį</td>
+                  <td>ją</td>
+                  <td>juos</td>
+                  <td>jas</td>
+                </tr>
+                <tr class="bg-white">
+                  <td class="px-6 py-4 case-label">Inst.</td>
+                  <td>juo</td>
+                  <td>ja</td>
+                  <td>jais</td>
+                  <td>jomis</td>
+                </tr>
+                <tr class="bg-gray-50">
+                  <td class="px-6 py-4 case-label">Loc.</td>
+                  <td>jame</td>
+                  <td>joje</td>
+                  <td>juose</td>
+                  <td>jose</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <!-- Possessive Pronouns -->
+        <section id="possessive-pronouns">
+          <h2 class="decl-header border-b-2 border-green-200">
+            Possessive Pronouns
+          </h2>
+          <div class="note">
+            <h3 class="font-bold text-lg mb-2">Important Rule: Indeclinable</h3>
+            <p>
+              Lithuanian does not have separate possessive adjectives like "my"
+              or "your". Instead, it uses the **genitive case** of the personal
+              pronouns. These forms are **indeclinable** – they never change,
+              regardless of the gender, number, or case of the noun they modify.
+            </p>
+          </div>
+          <div class="table-container mt-6">
+            <table class="w-full text-sm text-left text-gray-500">
+              <thead class="text-xs text-gray-700 uppercase bg-gray-100">
+                <tr>
+                  <th scope="col" class="px-6 py-3">Pronoun</th>
+                  <th scope="col" class="px-6 py-3">Meaning</th>
+                  <th scope="col" class="px-6 py-3">Example</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="bg-white border-b">
+                  <td class="px-6 py-4 font-semibold">mano</td>
+                  <td class="px-6 py-4">my</td>
+                  <td class="px-6 py-4">
+                    Tai yra <span class="ending">mano</span> knyga/knygos.
+                  </td>
+                </tr>
+                <tr class="bg-gray-50 border-b">
+                  <td class="px-6 py-4 font-semibold">tavo</td>
+                  <td class="px-6 py-4">your (sg.)</td>
+                  <td class="px-6 py-4">
+                    Tai yra <span class="ending">tavo</span> brolis.
+                  </td>
+                </tr>
+                <tr class="bg-white border-b">
+                  <td class="px-6 py-4 font-semibold">jo</td>
+                  <td class="px-6 py-4">his, its</td>
+                  <td class="px-6 py-4">
+                    Tai yra <span class="ending">jo</span> mašina.
+                  </td>
+                </tr>
+                <tr class="bg-gray-50 border-b">
+                  <td class="px-6 py-4 font-semibold">jos</td>
+                  <td class="px-6 py-4">her, its</td>
+                  <td class="px-6 py-4">
+                    Tai yra <span class="ending">jos</span> namas.
+                  </td>
+                </tr>
+                <tr class="bg-white border-b">
+                  <td class="px-6 py-4 font-semibold">savo</td>
+                  <td class="px-6 py-4">one's own</td>
+                  <td class="px-6 py-4">
+                    Aš myliu <span class="ending">savo</span> miestą.
+                  </td>
+                </tr>
+                <tr class="bg-gray-50 border-b">
+                  <td class="px-6 py-4 font-semibold">mūsų</td>
+                  <td class="px-6 py-4">our</td>
+                  <td class="px-6 py-4">
+                    Tai yra <span class="ending">mūsų</span> tėvai.
+                  </td>
+                </tr>
+                <tr class="bg-white border-b">
+                  <td class="px-6 py-4 font-semibold">jūsų</td>
+                  <td class="px-6 py-4">your (pl./formal)</td>
+                  <td class="px-6 py-4">
+                    Kur yra <span class="ending">jūsų</span> viešbutis?
+                  </td>
+                </tr>
+                <tr class="bg-gray-50">
+                  <td class="px-6 py-4 font-semibold">jų</td>
+                  <td class="px-6 py-4">their</td>
+                  <td class="px-6 py-4">
+                    Mačiau <span class="ending">jų</span> vaikus.
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <!-- Demonstrative Pronouns -->
+        <section id="demonstrative-pronouns">
+          <h2 class="decl-header border-b-2 border-yellow-200">
+            Demonstrative Pronouns
+          </h2>
+          <p class="mb-4 text-gray-600">
+            Demonstrative pronouns point to specific nouns. They are fully
+            declined, agreeing in gender, number, and case.
+          </p>
+          <div class="grid md:grid-cols-2 gap-8">
+            <div>
+              <h3 class="text-xl font-semibold text-gray-700 mb-3">
+                šis (this) / ši (this)
+              </h3>
+              <div class="table-container">
+                <table class="w-full text-sm text-left text-gray-500">
+                  <thead class="text-xs text-gray-700 uppercase">
+                    <tr>
+                      <th class="px-6 py-3">Case</th>
+                      <th class="px-6 py-3">Masc.</th>
+                      <th class="px-6 py-3">Fem.</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="tense-header">
+                      <td colspan="3" class="px-6 py-2">Singular</td>
+                    </tr>
+                    <tr class="bg-white">
+                      <td class="px-6 py-4 case-label">Nom.</td>
+                      <td>š<span class="ending">is</span></td>
+                      <td>š<span class="ending">i</span></td>
+                    </tr>
+                    <tr class="bg-gray-50">
+                      <td class="px-6 py-4 case-label">Gen.</td>
+                      <td>ši<span class="ending">o</span></td>
+                      <td>ši<span class="ending">os</span></td>
+                    </tr>
+                    <tr class="bg-white">
+                      <td class="px-6 py-4 case-label">Dat.</td>
+                      <td>ši<span class="ending">am</span></td>
+                      <td>ši<span class="ending">ai</span></td>
+                    </tr>
+                    <tr class="bg-gray-50">
+                      <td class="px-6 py-4 case-label">Acc.</td>
+                      <td>š<span class="ending">į</span></td>
+                      <td>ši<span class="ending">ą</span></td>
+                    </tr>
+                    <tr class="bg-white">
+                      <td class="px-6 py-4 case-label">Inst.</td>
+                      <td>ši<span class="ending">uo</span></td>
+                      <td>ši<span class="ending">a</span></td>
+                    </tr>
+                    <tr class="bg-gray-50">
+                      <td class="px-6 py-4 case-label">Loc.</td>
+                      <td>ši<span class="ending">ame</span></td>
+                      <td>ši<span class="ending">oje</span></td>
+                    </tr>
+                    <tr class="tense-header">
+                      <td colspan="3" class="px-6 py-2">Plural</td>
+                    </tr>
+                    <tr class="bg-white">
+                      <td class="px-6 py-4 case-label">Nom.</td>
+                      <td>š<span class="ending">ie</span></td>
+                      <td>ši<span class="ending">os</span></td>
+                    </tr>
+                    <tr class="bg-gray-50">
+                      <td class="px-6 py-4 case-label">Gen.</td>
+                      <td>ši<span class="ending">ų</span></td>
+                      <td>ši<span class="ending">ų</span></td>
+                    </tr>
+                    <tr class="bg-white">
+                      <td class="px-6 py-4 case-label">Dat.</td>
+                      <td>ši<span class="ending">ems</span></td>
+                      <td>ši<span class="ending">oms</span></td>
+                    </tr>
+                    <tr class="bg-gray-50">
+                      <td class="px-6 py-4 case-label">Acc.</td>
+                      <td>ši<span class="ending">uos</span></td>
+                      <td>ši<span class="ending">as</span></td>
+                    </tr>
+                    <tr class="bg-white">
+                      <td class="px-6 py-4 case-label">Inst.</td>
+                      <td>ši<span class="ending">ais</span></td>
+                      <td>ši<span class="ending">omis</span></td>
+                    </tr>
+                    <tr class="bg-gray-50">
+                      <td class="px-6 py-4 case-label">Loc.</td>
+                      <td>ši<span class="ending">uose</span></td>
+                      <td>ši<span class="ending">ose</span></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 class="text-xl font-semibold text-gray-700 mb-3">
+                tas (that) / ta (that)
+              </h3>
+              <div class="table-container">
+                <table class="w-full text-sm text-left text-gray-500">
+                  <thead class="text-xs text-gray-700 uppercase">
+                    <tr>
+                      <th class="px-6 py-3">Case</th>
+                      <th class="px-6 py-3">Masc.</th>
+                      <th class="px-6 py-3">Fem.</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="tense-header">
+                      <td colspan="3" class="px-6 py-2">Singular</td>
+                    </tr>
+                    <tr class="bg-white">
+                      <td class="px-6 py-4 case-label">Nom.</td>
+                      <td>t<span class="ending">as</span></td>
+                      <td>t<span class="ending">a</span></td>
+                    </tr>
+                    <tr class="bg-gray-50">
+                      <td class="px-6 py-4 case-label">Gen.</td>
+                      <td>t<span class="ending">o</span></td>
+                      <td>t<span class="ending">os</span></td>
+                    </tr>
+                    <tr class="bg-white">
+                      <td class="px-6 py-4 case-label">Dat.</td>
+                      <td>t<span class="ending">am</span></td>
+                      <td>t<span class="ending">ai</span></td>
+                    </tr>
+                    <tr class="bg-gray-50">
+                      <td class="px-6 py-4 case-label">Acc.</td>
+                      <td>t<span class="ending">ą</span></td>
+                      <td>t<span class="ending">ą</span></td>
+                    </tr>
+                    <tr class="bg-white">
+                      <td class="px-6 py-4 case-label">Inst.</td>
+                      <td>t<span class="ending">uo</span></td>
+                      <td>t<span class="ending">a</span></td>
+                    </tr>
+                    <tr class="bg-gray-50">
+                      <td class="px-6 py-4 case-label">Loc.</td>
+                      <td>tam<span class="ending">e</span></td>
+                      <td>toj<span class="ending">e</span></td>
+                    </tr>
+                    <tr class="tense-header">
+                      <td colspan="3" class="px-6 py-2">Plural</td>
+                    </tr>
+                    <tr class="bg-white">
+                      <td class="px-6 py-4 case-label">Nom.</td>
+                      <td>t<span class="ending">ie</span></td>
+                      <td>t<span class="ending">os</span></td>
+                    </tr>
+                    <tr class="bg-gray-50">
+                      <td class="px-6 py-4 case-label">Gen.</td>
+                      <td>t<span class="ending">ų</span></td>
+                      <td>t<span class="ending">ų</span></td>
+                    </tr>
+                    <tr class="bg-white">
+                      <td class="px-6 py-4 case-label">Dat.</td>
+                      <td>ti<span class="ending">ems</span></td>
+                      <td>t<span class="ending">oms</span></td>
+                    </tr>
+                    <tr class="bg-gray-50">
+                      <td class="px-6 py-4 case-label">Acc.</td>
+                      <td>t<span class="ending">uos</span></td>
+                      <td>t<span class="ending">as</span></td>
+                    </tr>
+                    <tr class="bg-white">
+                      <td class="px-6 py-4 case-label">Inst.</td>
+                      <td>t<span class="ending">ais</span></td>
+                      <td>t<span class="ending">omis</span></td>
+                    </tr>
+                    <tr class="bg-gray-50">
+                      <td class="px-6 py-4 case-label">Loc.</td>
+                      <td>tuos<span class="ending">e</span></td>
+                      <td>tos<span class="ending">e</span></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Interrogative Pronouns -->
+        <section id="interrogative-pronouns">
+          <h2 class="decl-header border-b-2 border-red-200">
+            Interrogative Pronouns
+          </h2>
+          <p class="mb-4 text-gray-600">
+            These pronouns are used to ask questions. `Kas` is gender-neutral,
+            while `kuris` declines for gender.
+          </p>
+          <div class="grid md:grid-cols-2 gap-8">
+            <div>
+              <h3 class="text-xl font-semibold text-gray-700 mb-3">
+                kas (who, what)
+              </h3>
+              <div class="table-container">
+                <table class="w-full text-sm text-left text-gray-500">
+                  <thead class="text-xs text-gray-700 uppercase">
+                    <tr>
+                      <th class="px-6 py-3">Case</th>
+                      <th class="px-6 py-3">Form (Masc./Fem.)</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="bg-white">
+                      <td class="px-6 py-4 case-label">Nom.</td>
+                      <td>kas</td>
+                    </tr>
+                    <tr class="bg-gray-50">
+                      <td class="px-6 py-4 case-label">Gen.</td>
+                      <td>ko</td>
+                    </tr>
+                    <tr class="bg-white">
+                      <td class="px-6 py-4 case-label">Dat.</td>
+                      <td>kam</td>
+                    </tr>
+                    <tr class="bg-gray-50">
+                      <td class="px-6 py-4 case-label">Acc.</td>
+                      <td>ką</td>
+                    </tr>
+                    <tr class="bg-white">
+                      <td class="px-6 py-4 case-label">Inst.</td>
+                      <td>kuo</td>
+                    </tr>
+                    <tr class="bg-gray-50">
+                      <td class="px-6 py-4 case-label">Loc.</td>
+                      <td>kame</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 class="text-xl font-semibold text-gray-700 mb-3">
+                kuris (which) / kuri (which)
+              </h3>
+              <div class="table-container">
+                <table class="w-full text-sm text-left text-gray-500">
+                  <thead class="text-xs text-gray-700 uppercase">
+                    <tr>
+                      <th class="px-6 py-3">Case</th>
+                      <th class="px-6 py-3">Masc.</th>
+                      <th class="px-6 py-3">Fem.</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="tense-header">
+                      <td colspan="3" class="px-6 py-2">Singular</td>
+                    </tr>
+                    <tr class="bg-white">
+                      <td class="px-6 py-4 case-label">Nom.</td>
+                      <td>kur<span class="ending">is</span></td>
+                      <td>kur<span class="ending">i</span></td>
+                    </tr>
+                    <tr class="bg-gray-50">
+                      <td class="px-6 py-4 case-label">Gen.</td>
+                      <td>kur<span class="ending">io</span></td>
+                      <td>kur<span class="ending">ios</span></td>
+                    </tr>
+                    <tr class="bg-white">
+                      <td class="px-6 py-4 case-label">Dat.</td>
+                      <td>kur<span class="ending">iam</span></td>
+                      <td>kur<span class="ending">iai</span></td>
+                    </tr>
+                    <tr class="bg-gray-50">
+                      <td class="px-6 py-4 case-label">Acc.</td>
+                      <td>kur<span class="ending">į</span></td>
+                      <td>kuri<span class="ending">ą</span></td>
+                    </tr>
+                    <tr class="bg-white">
+                      <td class="px-6 py-4 case-label">Inst.</td>
+                      <td>kur<span class="ending">iuo</span></td>
+                      <td>kuri<span class="ending">a</span></td>
+                    </tr>
+                    <tr class="bg-gray-50">
+                      <td class="px-6 py-4 case-label">Loc.</td>
+                      <td>kur<span class="ending">iame</span></td>
+                      <td>kur<span class="ending">ioje</span></td>
+                    </tr>
+                    <tr class="tense-header">
+                      <td colspan="3" class="px-6 py-2">Plural</td>
+                    </tr>
+                    <tr class="bg-white">
+                      <td class="px-6 py-4 case-label">Nom.</td>
+                      <td>kur<span class="ending">ie</span></td>
+                      <td>kur<span class="ending">ios</span></td>
+                    </tr>
+                    <tr class="bg-gray-50">
+                      <td class="px-6 py-4 case-label">Gen.</td>
+                      <td>kur<span class="ending">ių</span></td>
+                      <td>kur<span class="ending">ių</span></td>
+                    </tr>
+                    <tr class="bg-white">
+                      <td class="px-6 py-4 case-label">Dat.</td>
+                      <td>kur<span class="ending">iems</span></td>
+                      <td>kur<span class="ending">ioms</span></td>
+                    </tr>
+                    <tr class="bg-gray-50">
+                      <td class="px-6 py-4 case-label">Acc.</td>
+                      <td>kur<span class="ending">iuos</span></td>
+                      <td>kuri<span class="ending">as</span></td>
+                    </tr>
+                    <tr class="bg-white">
+                      <td class="px-6 py-4 case-label">Inst.</td>
+                      <td>kur<span class="ending">iais</span></td>
+                      <td>kur<span class="ending">iomis</span></td>
+                    </tr>
+                    <tr class="bg-gray-50">
+                      <td class="px-6 py-4 case-label">Loc.</td>
+                      <td>kur<span class="ending">iuose</span></td>
+                      <td>kur<span class="ending">iose</span></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="text-center mt-12 py-4 border-t text-gray-500 text-sm">
+        <p>A comprehensive reference for Lithuanian pronoun declensions.</p>
+      </footer>
+    </div>
+  </body>
+</html>

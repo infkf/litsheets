@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Comprehensive Lithuanian Participle Declensions Cheatsheet</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Inter", sans-serif;
+      }
+      .case-label {
+        font-weight: 600;
+        color: #4a5568; /* gray-700 */
+      }
+      .ending {
+        font-weight: 700;
+        color: #2b6cb0; /* blue-700 */
+        background-color: #ebf8ff; /* blue-100 */
+        padding: 0.125rem 0.375rem;
+        border-radius: 0.25rem;
+        font-size: 0.9em;
+      }
+      .note {
+        background-color: #fefcbf; /* yellow-100 */
+        border-left: 4px solid #f6e05e; /* yellow-400 */
+        padding: 1rem;
+        margin-top: 1rem;
+        font-size: 0.9rem;
+        color: #744210; /* yellow-900 */
+        border-radius: 0.25rem;
+      }
+      .rule {
+        background-color: #f7fafc;
+        padding: 1rem;
+        border-left: 4px solid #63b3ed; /* blue-400 */
+        border-radius: 0.25rem;
+        margin-top: 1rem;
+      }
+      .stem-box {
+        background-color: #ebf8ff; /* blue-100 */
+        padding: 1rem;
+        border-radius: 0.5rem;
+        border: 1px solid #bee3f8; /* blue-200 */
+      }
+      .stem-name {
+        font-weight: 600;
+        color: #2c5282; /* blue-800 */
+      }
+      th {
+        position: sticky;
+        top: 0;
+        background-color: #f7fafc; /* gray-100 */
+      }
+      .decl-header {
+        font-size: 1.5rem; /* text-2xl */
+        font-weight: 700;
+        color: #1a202c; /* gray-900 */
+        margin-bottom: 1rem;
+        padding-bottom: 0.5rem;
+      }
+      .table-container {
+        overflow-x: auto;
+        box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1),
+          0 2px 4px -2px rgb(0 0 0 / 0.1);
+        border-radius: 0.5rem;
+      }
+    </style>
+  </head>
+  <body class="bg-gray-50 text-gray-800">
+        <nav class="bg-white shadow-md sticky top-0 z-10">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-center h-16">
+                <div class="flex flex-wrap justify-center items-center space-x-2 sm:space-x-4">
+                    <!-- Navbar Links -->
+                    <a href="./index.html" class="text-gray-700 hover:bg-blue-100 hover:text-blue-700 px-3 py-2 rounded-md text-sm font-medium">Home</a>
+                    <a href="./nouns.html" class="text-gray-700 hover:bg-blue-100 hover:text-blue-700 px-3 py-2 rounded-md text-sm font-medium">Nouns</a>
+                    <a href="./adjectives.html" class="text-gray-700 hover:bg-blue-100 hover:text-blue-700 px-3 py-2 rounded-md text-sm font-medium">Adjectives</a>
+                    <a href="./pronouns.html" class="text-gray-700 hover:bg-blue-100 hover:text-blue-700 px-3 py-2 rounded-md text-sm font-medium">Pronouns</a>
+                    <a href="./numerals.html" class="text-gray-700 hover:bg-blue-100 hover:text-blue-700 px-3 py-2 rounded-md text-sm font-medium">Numerals</a>
+                    <a href="./verbs.html" class="text-gray-700 hover:bg-blue-100 hover:text-blue-700 px-3 py-2 rounded-md text-sm font-medium">Verbs</a>
+                    <a href="./participles.html" class="text-gray-700 hover:bg-blue-100 hover:text-blue-700 px-3 py-2 rounded-md text-sm font-medium">Participles</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mx-auto p-4 sm:p-6 lg:p-8">
+      <header class="text-center mb-10">
+        <h1 class="text-4xl font-bold text-gray-900">
+          Comprehensive Participle Declensions
+        </h1>
+        <p class="text-xl text-gray-600 mt-2">
+          A complete reference for Lithuanian participles (Dalyviai).
+        </p>
+      </header>
+
+      <main class="space-y-12">
+        <div class="note">
+          <h3 class="font-bold text-lg mb-2">What are Participles?</h3>
+          <p>
+            Participles are words derived from verbs that function like
+            adjectives or adverbs. Lithuanian has a very rich and powerful
+            participle system, allowing for the creation of concise and elegant
+            sentences. Adjectival participles decline to agree with nouns, while
+            adverbial participles are indeclinable.
+          </p>
+        </div>
+
+        <!-- How to Form Participles -->
+        <section id="formation-rules">
+          <h2 class="decl-header border-b-2 border-purple-200">
+            How to Form Participles
+          </h2>
+          <p class="mb-4 text-gray-600">
+            Participles are built from a verb's three main stems. Let's use
+            **dirbti** (to work) as an example.
+          </p>
+          <div class="stem-box grid md:grid-cols-3 gap-4 text-center">
+            <div>
+              <p class="stem-name">Infinitive Stem</p>
+              <p>
+                dirb<span class="ending">-ti</span> &rarr;
+                <strong class="text-xl">dirb-</strong>
+              </p>
+            </div>
+            <div>
+              <p class="stem-name">Present 3rd Person Stem</p>
+              <p>
+                jis/ji dirb<span class="ending">-a</span> &rarr;
+                <strong class="text-xl">dirba-</strong>
+              </p>
+            </div>
+            <div>
+              <p class="stem-name">Past 3rd Person Stem</p>
+              <p>
+                jis/ji dirb<span class="ending">-o</span> &rarr;
+                <strong class="text-xl">dirbo-</strong>
+              </p>
+            </div>
+          </div>
+          <div class="table-container mt-6">
+            <table class="w-full text-sm text-left text-gray-500">
+              <thead class="text-xs text-gray-700 uppercase">
+                <tr>
+                  <th scope="col" class="px-6 py-3">Participle Type</th>
+                  <th scope="col" class="px-6 py-3">Based on Stem</th>
+                  <th scope="col" class="px-6 py-3">Suffix Added</th>
+                  <th scope="col" class="px-6 py-3">Example Formation</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="bg-white border-b">
+                  <td class="px-6 py-4 case-label">Present Active</td>
+                  <td>Present 3rd Person</td>
+                  <td>
+                    <span class="ending">-ntis</span> (m) /
+                    <span class="ending">-nti</span> (f)
+                  </td>
+                  <td>dirba- + -ntis &rarr; <strong>dirbantis</strong></td>
+                </tr>
+                <tr class="bg-gray-50 border-b">
+                  <td class="px-6 py-4 case-label">Past Active</td>
+                  <td>Past 3rd Person</td>
+                  <td>
+                    <span class="ending">-ęs</span> (m) /
+                    <span class="ending">-usi</span> (f)
+                  </td>
+                  <td>dirbo- + -ęs &rarr; <strong>dirbęs</strong></td>
+                </tr>
+                <tr class="bg-white border-b">
+                  <td class="px-6 py-4 case-label">Present Passive</td>
+                  <td>Present 3rd Person</td>
+                  <td>
+                    <span class="ending">-mas</span> (m) /
+                    <span class="ending">-ma</span> (f)
+                  </td>
+                  <td>dirba- + -mas &rarr; <strong>dirbamas</strong></td>
+                </tr>
+                <tr class="bg-gray-50 border-b">
+                  <td class="px-6 py-4 case-label">Past Passive</td>
+                  <td>Infinitive</td>
+                  <td>
+                    <span class="ending">-tas</span> (m) /
+                    <span class="ending">-ta</span> (f)
+                  </td>
+                  <td>dirb- + -tas &rarr; <strong>dirbtas</strong></td>
+                </tr>
+                <tr class="bg-white border-b">
+                  <td class="px-6 py-4 case-label">Half-Participle</td>
+                  <td>Infinitive</td>
+                  <td>
+                    <span class="ending">-damas</span> (m) /
+                    <span class="ending">-dama</span> (f)
+                  </td>
+                  <td>dirb- + -damas &rarr; <strong>dirbdamas</strong></td>
+                </tr>
+                <tr class="bg-gray-50">
+                  <td class="px-6 py-4 case-label">Gerund</td>
+                  <td>Present 3rd Person</td>
+                  <td><span class="ending">-ant</span></td>
+                  <td>dirba- + -ant &rarr; <strong>dirbant</strong></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <!-- Active Adjectival Participles -->
+        <section id="active-participles">
+          <h2 class="decl-header border-b-2 border-blue-200">
+            Active Adjectival Participles
+          </h2>
+          <p class="mb-4 text-gray-600">
+            These describe a noun that is **performing** an action. They decline
+            like adjectives.
+          </p>
+
+          <h3 class="text-xl font-semibold text-gray-700 mb-3 mt-8">
+            Present Active:
+            <span class="font-normal">einantis (going/walking)</span>
+          </h3>
+          <div class="grid md:grid-cols-2 gap-8">
+            <div class="table-container">
+              <table class="w-full text-sm text-left text-gray-500">
+                <thead class="text-xs text-gray-700 uppercase">
+                  <tr class="bg-gray-200">
+                    <th colspan="3" class="px-6 py-2 text-center">
+                      Masculine: einantis
+                    </th>
+                  </tr>
+                  <tr>
+                    <th class="px-6 py-3">Case</th>
+                    <th class="px-6 py-3">Singular</th>
+                    <th class="px-6 py-3">Plural</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="px-6 py-4 case-label">Nom.</td>
+                    <td>
+                      ein<span class="ending">antis</span> / ein<span
+                        class="ending"
+                        >ąs</span
+                      >
+                    </td>
+                    <td>ein<span class="ending">antys</span></td>
+                  </tr>
+                  <tr>
+                    <td class="px-6 py-4 case-label">Gen.</td>
+                    <td>ein<span class="ending">ančio</span></td>
+                    <td>ein<span class="ending">ančių</span></td>
+                  </tr>
+                  <tr>
+                    <td class="px-6 py-4 case-label">Dat.</td>
+                    <td>ein<span class="ending">ančiam</span></td>
+                    <td>ein<span class="ending">antiems</span></td>
+                  </tr>
+                  <tr>
+                    <td class="px-6 py-4 case-label">Acc.</td>
+                    <td>ein<span class="ending">antį</span></td>
+                    <td>ein<span class="ending">ančius</span></td>
+                  </tr>
+                  <tr>
+                    <td class="px-6 py-4 case-label">Inst.</td>
+                    <td>ein<span class="ending">ančiu</span></td>
+                    <td>ein<span class="ending">ančiais</span></td>
+                  </tr>
+                  <tr>
+                    <td class="px-6 py-4 case-label">Loc.</td>
+                    <td>ein<span class="ending">ančiame</span></td>
+                    <td>ein<span class="ending">ančiuose</span></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="table-container">
+              <table class="w-full text-sm text-left text-gray-500">
+                <thead class="text-xs text-gray-700 uppercase">
+                  <tr class="bg-gray-200">
+                    <th colspan="3" class="px-6 py-2 text-center">
+                      Feminine: einanti
+                    </th>
+                  </tr>
+                  <tr>
+                    <th class="px-6 py-3">Case</th>
+                    <th class="px-6 py-3">Singular</th>
+                    <th class="px-6 py-3">Plural</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="px-6 py-4 case-label">Nom.</td>
+                    <td>ein<span class="ending">anti</span></td>
+                    <td>ein<span class="ending">ančios</span></td>
+                  </tr>
+                  <tr>
+                    <td class="px-6 py-4 case-label">Gen.</td>
+                    <td>ein<span class="ending">ančios</span></td>
+                    <td>ein<span class="ending">ančių</span></td>
+                  </tr>
+                  <tr>
+                    <td class="px-6 py-4 case-label">Dat.</td>
+                    <td>ein<span class="ending">ančiai</span></td>
+                    <td>ein<span class="ending">ančioms</span></td>
+                  </tr>
+                  <tr>
+                    <td class="px-6 py-4 case-label">Acc.</td>
+                    <td>ein<span class="ending">ančią</span></td>
+                    <td>ein<span class="ending">ančias</span></td>
+                  </tr>
+                  <tr>
+                    <td class="px-6 py-4 case-label">Inst.</td>
+                    <td>ein<span class="ending">ančia</span></td>
+                    <td>ein<span class="ending">ančiomis</span></td>
+                  </tr>
+                  <tr>
+                    <td class="px-6 py-4 case-label">Loc.</td>
+                    <td>ein<span class="ending">ančioje</span></td>
+                    <td>ein<span class="ending">ančiose</span></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <h3 class="text-xl font-semibold text-gray-700 mb-3 mt-12">
+            Past Active:
+            <span class="font-normal">ėjęs (having gone/walked)</span>
+          </h3>
+          <div class="grid md:grid-cols-2 gap-8">
+            <div class="table-container">
+              <table class="w-full text-sm text-left text-gray-500">
+                <thead class="text-xs text-gray-700 uppercase">
+                  <tr class="bg-gray-200">
+                    <th colspan="3" class="px-6 py-2 text-center">
+                      Masculine: ėjęs
+                    </th>
+                  </tr>
+                  <tr>
+                    <th class="px-6 py-3">Case</th>
+                    <th class="px-6 py-3">Singular</th>
+                    <th class="px-6 py-3">Plural</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="px-6 py-4 case-label">Nom.</td>
+                    <td>ėj<span class="ending">ęs</span></td>
+                    <td>ėj<span class="ending">ę</span></td>
+                  </tr>
+                  <tr>
+                    <td class="px-6 py-4 case-label">Gen.</td>
+                    <td>ėj<span class="ending">usio</span></td>
+                    <td>ėj<span class="ending">usių</span></td>
+                  </tr>
+                  <tr>
+                    <td class="px-6 py-4 case-label">Dat.</td>
+                    <td>ėj<span class="ending">usiam</span></td>
+                    <td>ėj<span class="ending">usiems</span></td>
+                  </tr>
+                  <tr>
+                    <td class="px-6 py-4 case-label">Acc.</td>
+                    <td>ėj<span class="ending">usį</span></td>
+                    <td>ėj<span class="ending">usius</span></td>
+                  </tr>
+                  <tr>
+                    <td class="px-6 py-4 case-label">Inst.</td>
+                    <td>ėj<span class="ending">usiu</span></td>
+                    <td>ėj<span class="ending">usiais</span></td>
+                  </tr>
+                  <tr>
+                    <td class="px-6 py-4 case-label">Loc.</td>
+                    <td>ėj<span class="ending">usiame</span></td>
+                    <td>ėj<span class="ending">usiuose</span></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="table-container">
+              <table class="w-full text-sm text-left text-gray-500">
+                <thead class="text-xs text-gray-700 uppercase">
+                  <tr class="bg-gray-200">
+                    <th colspan="3" class="px-6 py-2 text-center">
+                      Feminine: ėjusi
+                    </th>
+                  </tr>
+                  <tr>
+                    <th class="px-6 py-3">Case</th>
+                    <th class="px-6 py-3">Singular</th>
+                    <th class="px-6 py-3">Plural</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="px-6 py-4 case-label">Nom.</td>
+                    <td>ėj<span class="ending">usi</span></td>
+                    <td>ėj<span class="ending">usios</span></td>
+                  </tr>
+                  <tr>
+                    <td class="px-6 py-4 case-label">Gen.</td>
+                    <td>ėj<span class="ending">usios</span></td>
+                    <td>ėj<span class="ending">usių</span></td>
+                  </tr>
+                  <tr>
+                    <td class="px-6 py-4 case-label">Dat.</td>
+                    <td>ėj<span class="ending">usiai</span></td>
+                    <td>ėj<span class="ending">usioms</span></td>
+                  </tr>
+                  <tr>
+                    <td class="px-6 py-4 case-label">Acc.</td>
+                    <td>ėj<span class="ending">usią</span></td>
+                    <td>ėj<span class="ending">usias</span></td>
+                  </tr>
+                  <tr>
+                    <td class="px-6 py-4 case-label">Inst.</td>
+                    <td>ėj<span class="ending">usia</span></td>
+                    <td>ėj<span class="ending">usiomis</span></td>
+                  </tr>
+                  <tr>
+                    <td class="px-6 py-4 case-label">Loc.</td>
+                    <td>ėj<span class="ending">usioje</span></td>
+                    <td>ėj<span class="ending">usiose</span></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+
+        <!-- Passive Adjectival Participles -->
+        <section id="passive-participles">
+          <h2 class="decl-header border-b-2 border-green-200">
+            Passive Adjectival Participles
+          </h2>
+          <p class="mb-4 text-gray-600">
+            These describe a noun that is **receiving** or **undergoing** an
+            action. They are used to form the passive voice.
+          </p>
+          <h3 class="text-xl font-semibold text-gray-700 mb-3 mt-8">
+            Past Passive:
+            <span class="font-normal">skaitytas (having been read)</span>
+          </h3>
+          <p class="mb-4 text-gray-600">
+            This is the most common passive participle. Present passive
+            (`-amas`/`-ama`) and necessity (`-tinas`/`-tina`) participles
+            decline identically to regular adjectives like `geras`/`gera`.
+          </p>
+          <div class="grid md:grid-cols-2 gap-8">
+            <div class="table-container">
+              <table class="w-full text-sm text-left text-gray-500">
+                <thead class="text-xs text-gray-700 uppercase">
+                  <tr class="bg-gray-200">
+                    <th colspan="3" class="px-6 py-2 text-center">
+                      Masculine: skaitytas
+                    </th>
+                  </tr>
+                  <tr>
+                    <th class="px-6 py-3">Case</th>
+                    <th class="px-6 py-3">Singular</th>
+                    <th class="px-6 py-3">Plural</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="px-6 py-4 case-label">Nom.</td>
+                    <td>skaityt<span class="ending">as</span></td>
+                    <td>skaityt<span class="ending">i</span></td>
+                  </tr>
+                  <tr>
+                    <td class="px-6 py-4 case-label">Gen.</td>
+                    <td>skaityt<span class="ending">o</span></td>
+                    <td>skaityt<span class="ending">ų</span></td>
+                  </tr>
+                  <tr>
+                    <td class="px-6 py-4 case-label">Dat.</td>
+                    <td>skaityt<span class="ending">am</span></td>
+                    <td>skaityt<span class="ending">iems</span></td>
+                  </tr>
+                  <tr>
+                    <td class="px-6 py-4 case-label">Acc.</td>
+                    <td>skaityt<span class="ending">ą</span></td>
+                    <td>skaityt<span class="ending">us</span></td>
+                  </tr>
+                  <tr>
+                    <td class="px-6 py-4 case-label">Inst.</td>
+                    <td>skaityt<span class="ending">u</span></td>
+                    <td>skaityt<span class="ending">ais</span></td>
+                  </tr>
+                  <tr>
+                    <td class="px-6 py-4 case-label">Loc.</td>
+                    <td>skaityt<span class="ending">ame</span></td>
+                    <td>skaityt<span class="ending">uose</span></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="table-container">
+              <table class="w-full text-sm text-left text-gray-500">
+                <thead class="text-xs text-gray-700 uppercase">
+                  <tr class="bg-gray-200">
+                    <th colspan="3" class="px-6 py-2 text-center">
+                      Feminine: skaityta
+                    </th>
+                  </tr>
+                  <tr>
+                    <th class="px-6 py-3">Case</th>
+                    <th class="px-6 py-3">Singular</th>
+                    <th class="px-6 py-3">Plural</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="px-6 py-4 case-label">Nom.</td>
+                    <td>skaityt<span class="ending">a</span></td>
+                    <td>skaityt<span class="ending">os</span></td>
+                  </tr>
+                  <tr>
+                    <td class="px-6 py-4 case-label">Gen.</td>
+                    <td>skaityt<span class="ending">os</span></td>
+                    <td>skaityt<span class="ending">ų</span></td>
+                  </tr>
+                  <tr>
+                    <td class="px-6 py-4 case-label">Dat.</td>
+                    <td>skaityt<span class="ending">ai</span></td>
+                    <td>skaityt<span class="ending">oms</span></td>
+                  </tr>
+                  <tr>
+                    <td class="px-6 py-4 case-label">Acc.</td>
+                    <td>skaityt<span class="ending">ą</span></td>
+                    <td>skaityt<span class="ending">as</span></td>
+                  </tr>
+                  <tr>
+                    <td class="px-6 py-4 case-label">Inst.</td>
+                    <td>skaityt<span class="ending">a</span></td>
+                    <td>skaityt<span class="ending">omis</span></td>
+                  </tr>
+                  <tr>
+                    <td class="px-6 py-4 case-label">Loc.</td>
+                    <td>skaityt<span class="ending">oje</span></td>
+                    <td>skaityt<span class="ending">ose</span></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+
+        <!-- Adverbial Participles -->
+        <section id="adverbial-participles">
+          <h2 class="decl-header border-b-2 border-yellow-200">
+            Adverbial Participles
+          </h2>
+          <p class="mb-4 text-gray-600">
+            These function as adverbs and are indeclinable (they do not change
+            for case). They are used to describe a secondary action related to
+            the main verb.
+          </p>
+          <div class="rule">
+            <h4 class="font-bold text-lg mb-2">Half-Participle (Pusdalyvis)</h4>
+            <p>
+              Formed with `-damas` (m. sg.), `-dama` (f. sg.), `-dami` (m. pl.),
+              `-damos` (f. pl.). Describes a simultaneous action done by the
+              **same subject** as the main verb. It agrees in gender and number
+              with the subject.
+            </p>
+            <ul class="list-disc list-inside mt-2 space-y-2 text-gray-800">
+              <li>
+                Vyras skaito knygą <span class="ending">sėdėdamas</span>. (The
+                man reads a book <span class="ending">while sitting</span>.)
+              </li>
+              <li>
+                Moteris eina namo <span class="ending">dainuodama</span>. (The
+                woman goes home <span class="ending">while singing</span>.)
+              </li>
+            </ul>
+          </div>
+          <div class="rule">
+            <h4 class="font-bold text-lg mb-2">Gerund (Padalyvis)</h4>
+            <p>
+              Formed with `-ant` (present), `-us` (past active), or `-us`
+              (perfective past). Describes an action where the subject is
+              **different** from the main clause's subject, or when the action
+              is impersonal. It is completely indeclinable.
+            </p>
+            <ul class="list-disc list-inside mt-2 space-y-2 text-gray-800">
+              <li>
+                <span class="ending">Jai bemiegant</span>, nuskambėjo
+                žadintuvas. (<span class="ending">While she was sleeping</span>,
+                the alarm clock rang.)
+              </li>
+              <li>
+                <span class="ending">Saulei nusileidus</span>, atvėso oras.
+                (<span class="ending">After the sun set</span>, the air grew
+                cold.)
+              </li>
+            </ul>
+          </div>
+        </section>
+      </main>
+
+      <footer class="text-center mt-12 py-4 border-t text-gray-500 text-sm">
+        <p>A comprehensive reference for Lithuanian participles.</p>
+      </footer>
+    </div>
+  </body>
+</html>
